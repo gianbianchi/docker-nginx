@@ -12,8 +12,11 @@ const config = {
 const mysql = require("mysql");
 const connection = mysql.createConnection(config);
 
-const sql = `insert into people(name) values('Gianluca Bianchi')`;
+const sql = `CREATE TABLE IF NOT EXISTS people(id int auto_increment, name varchar(255) not null, primary key(id));`;
+const insert = `insert into people(name) values('Gianluca Bianchi')`;
+
 connection.query(sql);
+connection.query(insert);
 
 connection.end();
 

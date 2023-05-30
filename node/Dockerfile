@@ -13,8 +13,6 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 RUN npm install mysql --save && npm install express --save
 
-RUN npm install pm2 -g -y
-
 EXPOSE 3000
 
-CMD ["pm2 start", "index.js"]
+CMD ["node", "index.js"]

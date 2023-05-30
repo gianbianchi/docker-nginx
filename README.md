@@ -1,2 +1,2 @@
 # docker-nginx
-Desafio realizado para finaçização do módulo de Docker curso Full Cycle!
+Desafio realizado para finalização do módulo de Docker curso Full Cycle!

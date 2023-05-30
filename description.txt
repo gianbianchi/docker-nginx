@@ -1,0 +1,15 @@
+Deve fazer:
+- Quando acessarmos o nginx, deve acessar a aplicação nodeJs.
+Essa aplicação nodeJs vai criar uma pessoa no DB.
+
+Quando o usuário final acessar o site no navegador, vai aparecer "Full Cycle" e o nome do usuário que foi colocado por último no DB.
+
+
+*O que deve aparecer de verdade:
+<h1>Full Cycle Rocks!</h1>
+
+- Lista de nomes cadastrada no banco de dados.
+
+Comando: docker-compose up -d
+localhost:8080
+* A linguagem de programação para este desafio é Node/JavaScript.
